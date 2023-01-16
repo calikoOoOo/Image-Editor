@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Background
+comment0.text=\r\n\ \r\n\ The\ class\ Processor\ contains\ all\ of\ the\ code\ to\ actually\ perform\r\n\ transformation.\ The\ rest\ of\ the\ classes\ serve\ to\ support\ that\r\n\ capability.\ This\ World\ allows\ the\ user\ to\ choose\ transformations\r\n\ and\ open\ files.\r\n\ \r\n\ <p>Credit\:\ blur\ algorithm\ -\ java2s.com\ |\ Demo\ Source\ and\ Support.\ http\://www.java2s.com/Code/Java/2D-Graphics-GUI/BlurringaBufferedImage.htm\r\n\ \r\n\ @author\ Calista\ Kurniawan\r\n\ @version\ 2022\r\n
+comment1.params=
+comment1.target=Background()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Background.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act()\ method\ just\ checks\ for\ mouse\ input\r\n
+comment3.params=
+comment3.target=void\ checkMouse()
+comment3.text=\r\n\ Check\ for\ user\ clicking\ on\ a\ button\r\n
+comment4.params=
+comment4.target=void\ saveFile()
+comment5.params=
+comment5.target=void\ openFile()
+comment5.text=\r\n\ Allows\ the\ user\ to\ open\ a\ new\ image\ file.\r\n
+comment6.params=newBi
+comment6.target=greenfoot.GreenfootImage\ createGreenfootImageFromBI(java.awt.image.BufferedImage)
+comment6.text=\r\n\ Takes\ in\ a\ BufferedImage\ and\ returns\ a\ GreenfootImage.\r\n\ \r\n\ @param\ newBi\ The\ BufferedImage\ to\ convert.\r\n\ \r\n\ @return\ GreenfootImage\ \ \ A\ GreenfootImage\ built\ from\ the\ BufferedImage\ provided.\r\n
+comment7.params=bi
+comment7.target=java.awt.image.BufferedImage\ deepCopy(java.awt.image.BufferedImage)
+numComments=8
